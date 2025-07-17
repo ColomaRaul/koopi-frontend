@@ -20,6 +20,19 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## API Configuration
+
+This project is configured to connect to a REST API. To configure the API URL:
+
+1. Create a `.env.local` file in the root directory:
+```bash
+NEXT_PUBLIC_API_URL=http://localhost:3001
+```
+
+2. The default API URL is `http://localhost:3001` if no environment variable is set.
+
+3. Check the `API_SETUP.md` file for detailed documentation on how to use the API service.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
